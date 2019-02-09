@@ -11,10 +11,21 @@ The primary goals are:
 
 1. rip your series onto your disk and use episode numbers as names for the video files
 1. create a CSV file with relevant episode titles, see [titles.csv](examples/titles.csv) for an example
-1. run the script
+1. run the script, on Windows e.g. via *Git for Windows*:
 
-The script will create new video files which are optimized for SAMSUNG SmartTVs.
+       "<PathToGitForWindows>\git-bash.exe" "<PathToScript>" NUMBER_OF_DIGITS FIRST_EPISODE_NUMBER
+
+The script will create new video files.
 While these files will be named after the episode title valid NTFS filenames will be produced.
+
+### Parameters
+
+In this context, `NUMBER_OF_DIGITS` is the number of digits (e.g. `2`) used when formatting the filenames (e.g. `01 - Flug 627`) of generated video files.
+This is to ensure a correct ordering of the episodes according to the episode number by filename.
+
+`FIRST_EPISODE_NUMBER` is the number of the first episode that should be processed.
+While it could be extraced from the CSV file, it oddly doesn't work for me when running on Windows.
+This is a rather dirty but quick for this annoying issue.
 
 ## SAMSUNG SmartTV Optimization
 
