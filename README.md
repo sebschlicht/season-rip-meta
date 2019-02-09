@@ -13,7 +13,8 @@ The primary goals are:
 1. create a CSV file with relevant episode titles, see [titles.csv](examples/titles.csv) for an example
 1. run the script
 
-The script will create new video files, with episode titles in their name, which are optimized for SAMSUNG SmartTVs.
+The script will create new video files which are optimized for SAMSUNG SmartTVs.
+While these files will be named after the episode title valid NTFS filenames will be produced.
 
 ## SAMSUNG SmartTV Optimization
 
