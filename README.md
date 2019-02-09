@@ -3,9 +3,9 @@
 This script is an enhancement software for DVD rips of series.
 The primary goals are:
 
-1. to speed up the process
-1. to avoide mistakes
-1. optimize the video files for SAMSUNG SmartTVs
+* to speed up the process
+* to avoide mistakes
+* optimize the video files for SAMSUNG SmartTVs
 
 ## Usage
 
